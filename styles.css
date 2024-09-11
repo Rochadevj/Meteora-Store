@@ -1,0 +1,36 @@
+.texto-menor{
+    font-size: 13px;
+}
+
+.facilidades{
+    width: 325px;
+}
+
+.div-novidades {
+    max-width: 800px; /* Aumentando a largura máxima para 800px */
+    border: 2px solid #000; /* Bordas mais fortes e em negrito */
+  }
+  
+.botao-lilas {
+    background-color: #9353FF;
+}
+
+.verde-limao {
+    color: #DAFF01;
+}
+
+.posicao{
+    top: 37%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+
+    
+    .div-novidades {
+        width: 696px;
+    }
+
+}
